@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Order By Name", "3. Orde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Filter Students In Age Range", "4. Filter Students In Age Range\4. Filter Students In Age Range.csproj", "{689537B6-3E33-4188-8624-1CC017077FFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. Filter Students", "5. Filter Students\5. Filter Students.csproj", "{2ABFB5CF-3DC3-4FE3-968A-8C5564444886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6. Numbers Divisible by 3 and 7", "6. Numbers Divisible by 3 and 7\6. Numbers Divisible by 3 and 7.csproj", "{18697191-1F2C-45D1-931A-CAC5A3E92329}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{689537B6-3E33-4188-8624-1CC017077FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{689537B6-3E33-4188-8624-1CC017077FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{689537B6-3E33-4188-8624-1CC017077FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABFB5CF-3DC3-4FE3-968A-8C5564444886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABFB5CF-3DC3-4FE3-968A-8C5564444886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABFB5CF-3DC3-4FE3-968A-8C5564444886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABFB5CF-3DC3-4FE3-968A-8C5564444886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18697191-1F2C-45D1-931A-CAC5A3E92329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18697191-1F2C-45D1-931A-CAC5A3E92329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18697191-1F2C-45D1-931A-CAC5A3E92329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18697191-1F2C-45D1-931A-CAC5A3E92329}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
