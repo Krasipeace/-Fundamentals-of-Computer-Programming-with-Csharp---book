@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2. Custom MinMaxSumAvg", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. Order By Name", "3. Order By Name\3. Order By Name.csproj", "{6DFF72C4-96E7-4C6F-A1E9-17BC13AE41D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. Filter Students In Age Range", "4. Filter Students In Age Range\4. Filter Students In Age Range.csproj", "{689537B6-3E33-4188-8624-1CC017077FFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6DFF72C4-96E7-4C6F-A1E9-17BC13AE41D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DFF72C4-96E7-4C6F-A1E9-17BC13AE41D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DFF72C4-96E7-4C6F-A1E9-17BC13AE41D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689537B6-3E33-4188-8624-1CC017077FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689537B6-3E33-4188-8624-1CC017077FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689537B6-3E33-4188-8624-1CC017077FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689537B6-3E33-4188-8624-1CC017077FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
