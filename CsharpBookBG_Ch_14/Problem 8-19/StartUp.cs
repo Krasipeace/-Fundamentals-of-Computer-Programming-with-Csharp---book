@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace Problem_8_19  //unfinished
 {
-    internal class Program
+    public class StartUp
     {
         static void Main(string[] args)
         {
@@ -46,8 +45,6 @@ namespace Problem_8_19  //unfinished
                 choice = int.Parse(Console.ReadLine());
             }
         }
-
-
 
         private static void Menu()
         {
@@ -154,7 +151,6 @@ namespace Problem_8_19  //unfinished
                     Color = screenColor
                 };
                 screens.Add(screen);
-
             }
         }
         private static void PrintPhone(List<Phone> phones, List<Battery> batteries, List<Screen> screens)
@@ -176,10 +172,8 @@ namespace Problem_8_19  //unfinished
             {
                 Console.WriteLine($"Screen Size(inch): {item.Size}");
                 Console.WriteLine($"Screen Color: {item.Color}");
-            }
-            
+            }           
         }
-
     }
 
     class Phone
@@ -207,7 +201,6 @@ namespace Problem_8_19  //unfinished
 
             phones.Add(new Phone(Manufacturer, Model, Price, Owner));
         }
-
     }
 
     class Battery
@@ -223,12 +216,13 @@ namespace Problem_8_19  //unfinished
         public double IdleTime { get; set; }
         public double HoursTalk { get; set; }
     }
+
     public enum BatteryType
     {
-        LiIon,
-        LiPo,
-        NiMh,
-        NiCd
+        LiIon = 0,
+        LiPo = 1,
+        NiMh = 2,
+        NiCd = 3
     };
 
     class Screen
